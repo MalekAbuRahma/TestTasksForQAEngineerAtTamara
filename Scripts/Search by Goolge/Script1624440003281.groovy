@@ -24,6 +24,7 @@ WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
 'write in the textbox\r\n'
 WebUI.setText(findTestObject('Object Repository/Page_Google/input__q'), 'tamara KSA')
 
+'Search by xpath text on SHOP WITH PEACE OF MIND AND PAY LATER WITH TAMARA'
 WebUI.click(findTestObject('Page_Google/The first select'))
 
 WebUI.waitForElementClickable(findTestObject('Page_Google/The first select'), 1)
