@@ -28,7 +28,5 @@ WebUI.click(findTestObject('Page_Google/The first select'))
 
 WebUI.waitForElementClickable(findTestObject('Page_Google/The first select'), 1)
 
-not_run: WebUI.verifyTextPresent('tamara KSA', false)
-
 WebUI.click(findTestObject('Page_Google/Header'))
 
